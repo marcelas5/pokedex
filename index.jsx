@@ -25,9 +25,6 @@ function App() {
       </Routes>
     </BrowserRouter>
   )
-    
-
-
 }
 
 ReactDOM

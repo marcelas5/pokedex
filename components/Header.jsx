@@ -7,21 +7,18 @@ export default function Header() {
 
     const navigate = useNavigate()
 
-
     const activeStyles = {
         fontWeight: "bold",
         textDecoration: "underline",
         color: "#161616"
         }
     
-
     const handleSearch = (event) => {
             event.preventDefault();
             navigate(`/pokemons/search?name=${inputValue}`)
             setInputValue("")
         };
         
-
     return (
         <header>
             <Link className="site-logo"to="/">#PokéDex Central</Link>
