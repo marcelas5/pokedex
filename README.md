@@ -1,6 +1,6 @@
 # Pokédex Central
 
-Pokédex Central is a project for practicing React Router.
+Pokédex Central is a project designed for practicing React Router.
 
 This web app fetches Pokémon data from an external API, listing them on the main page with individual detail pages for each Pokémon.
 
